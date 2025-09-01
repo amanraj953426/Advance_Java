@@ -3,7 +3,7 @@ package Multithreading.createThread;
 public class Runnable_interface implements Runnable {
     @Override
     public void run() {
-        for (int i=0; i<100; i++){
+        for (int i=0; i<1000; i++){
             System.out.println("Runnable");
         }
     }
